@@ -4,6 +4,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;1,400;1,500;1,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap");
 
+@font-face {
+  font-family: castledown;
+  font-weight: bold;
+  src: url("/webfonts/castledown-bold.woff.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: castledown;
+  font-weight: bolder;
+  src: url("/webfonts/castledown-heavy.woff.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: castledown;
+  font-weight: normal;
+  src: url("/webfonts/castledown-bold.woff.ttf") format("ttf");
+}
+
 *,
 *::before,
 *::after {
@@ -313,16 +331,16 @@ footer {
 
 .bold {
   font-family: "castledown";
-  font-weight: lighter;
+  font-weight: bold;
   text-align: center;
   font-size: 40px;
 }
 
 .big {
   font-family: "castledown";
-  font-weight: lighter;
+  font-weight: bold;
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .button {
@@ -355,13 +373,14 @@ footer {
 /* Typewriter Effects */
 .typewriter {
   font-size: 30px;
-  font-weight: 800;
+  font-weight: regular;
   font-family: castledown, sans-serif;
   display: block;
 }
 
 .typewriter-text {
-  font-family: monospace;
+  font-family: castledown, sans-serif;
+  font-weight: regular;
   padding-right: 5px;
   color: #ffd200;
   border-right: solid #65eb9d 5px;

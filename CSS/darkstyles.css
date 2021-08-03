@@ -4,6 +4,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;1,400;1,500;1,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap");
 
+@font-face {
+  font-family: castledown;
+  font-weight: bold;
+  src: url("/webfonts/castledown-bold.woff.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: castledown;
+  font-weight: bolder;
+  src: url("/webfonts/castledown-heavy.woff.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: castledown;
+  font-weight: normal;
+  src: url("/webfonts/castledown-bold.woff.ttf") format("ttf");
+}
+
 *,
 *::before,
 *::after {
@@ -192,6 +210,11 @@ article {
   transition: box-shadow 0.15s ease-in-out;
 }
 
+article:hover {
+  box-shadow: 3px 3px 7px 2px #dee2e6, 6px 6px 6px 6px #e9ecef,
+    9px 9px 11px 6px #f8f9fa;
+}
+
 article h3 {
   margin: 5px;
   font-size: 1.4em;
@@ -232,6 +255,7 @@ article::before {
   margin: 5px;
   padding: 5px 3px 0px 4px;
   border-radius: 4px;
+  box-shadow: 1px 1px 3px 2px #dee2e6, 1px 1px 4px 3px #e9ecef;
   z-index: -10;
   background: var(--icon-background);
   transform: translateX(50px);
@@ -304,16 +328,16 @@ footer {
 
 .bold {
   font-family: "castledown";
-  font-weight: lighter;
+  font-weight: bold;
   text-align: center;
   font-size: 40px;
 }
 
 .big {
   font-family: "castledown";
-  font-weight: lighter;
+  font-weight: bold;
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .button {
@@ -347,13 +371,14 @@ footer {
 /* Typewriter Effects */
 .typewriter {
   font-size: 30px;
-  font-weight: 800;
+  font-weight: regular;
   font-family: castledown, sans-serif;
   display: block;
 }
 
 .typewriter-text {
-  font-family: monospace;
+  font-family: castledown, sans-serif;
+  font-weight: regular;
   padding-right: 5px;
   color: #ffd200;
   border-right: solid #65eb9d 5px;
