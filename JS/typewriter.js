@@ -7,7 +7,8 @@ textArr = [
   'Curious.',
   'a Swimmer.',
   'a Reader.',
-  'a Student.'
+  'a Student.',
+  'Fredward'
 ]
 
 span = document.getElementsByTagName("span")[0];
