@@ -1,9 +1,9 @@
 var span, textArr, textIndex, textToShow, textToShowLen, letterIndex, textTimer, letterTimer, textDelay, letterDelay, emptyTimer;
 
 textArr = [
+  'Eddy',
+  'Creative.',
   'Fredward',
-  "Eddy.",
-  "Creative.",
   'a Developer.',
   'Curious.',
   'a Swimmer.',
