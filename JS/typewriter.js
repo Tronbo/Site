@@ -1,14 +1,14 @@
 var span, textArr, textIndex, textToShow, textToShowLen, letterIndex, textTimer, letterTimer, textDelay, letterDelay, emptyTimer;
 
 textArr = [
+  'Fredward',
   "Eddy.",
   "Creative.",
   'a Developer.',
   'Curious.',
   'a Swimmer.',
   'a Reader.',
-  'a Student.',
-  'Fredward'
+  'a Student.'
 ]
 
 span = document.getElementsByTagName("span")[0];
