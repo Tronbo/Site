@@ -2,6 +2,7 @@ var span, textArr, textIndex, textToShow, textToShowLen, letterIndex, textTimer,
 
 textArr = [
   'Eddy.',
+  'fuck',
   'Creative.',
   'Fredward.',
   'a Developer.',
