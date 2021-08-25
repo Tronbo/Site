@@ -6,20 +6,23 @@
 
 @font-face {
   font-family: castledown;
-  font-weight: bold;
-  src: url("/webfonts/castledown-bold.woff.ttf") format("ttf");
-}
-
-@font-face {
-  font-family: castledown;
-  font-weight: bolder;
+  font-style: bolder;
+  font-display: swap;
   src: url("/webfonts/castledown-heavy.woff.ttf") format("ttf");
 }
 
 @font-face {
-  font-family: castledown;
-  font-weight: normal;
+  font-family: "castledown";
   src: url("/webfonts/castledown-bold.woff.ttf") format("ttf");
+  font-style: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "castledown";
+  src: url("/webfonts/castledown-regular.ttf") format("ttf");
+  font-style: normal;
+  font-display: swap;
 }
 
 *,

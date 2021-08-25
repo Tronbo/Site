@@ -6,20 +6,23 @@
 
 @font-face {
   font-family: castledown;
-  font-weight: bold;
-  src: url("/webfonts/castledown-bold.woff.ttf") format("ttf");
-}
-
-@font-face {
-  font-family: castledown;
-  font-weight: bolder;
+  font-style: bolder;
+  font-display: swap;
   src: url("/webfonts/castledown-heavy.woff.ttf") format("ttf");
 }
 
 @font-face {
-  font-family: castledown;
-  font-weight: normal;
+  font-family: "castledown";
   src: url("/webfonts/castledown-bold.woff.ttf") format("ttf");
+  font-style: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "castledown";
+  src: url("/webfonts/castledown-regular.ttf") format("ttf");
+  font-style: normal;
+  font-display: swap;
 }
 
 *,
@@ -95,7 +98,7 @@ header {
 .title {
   cursor: pointer;
   font-family: "castledown", sans-serif;
-  font-weight: 700;
+  font-weight: bold;
   background-image: url(../images/tenor.gif);
   background-size: 100% 200%;
   animation: rainbow 5s ease infinite;
