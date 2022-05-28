@@ -1,3 +1,3 @@
 function myFunction() {
-  alert("Fredward#2629");
+  alert("Fredward#6969");
 }
